@@ -29,8 +29,66 @@ A comparison table outlining the performance of each platform (ChatGPT, Claude, 
 A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
 
 ### Output:
+ChatGPT:
+Based on your interest in tropical destinations, I recommend a trip to Bali with options for scuba diving and a stay at a luxury beachfront resort. You may also like a snorkeling adventure in the Maldives or a yoga retreat in Costa Rica.
 
-### Conclusion: 
+Claude:
+Since you’ve been exploring tropical escapes and diving activities, I suggest considering destinations like the Maldives with exclusive diving tours and resorts, or perhaps a wellness retreat in the Bahamas with guided underwater explorations.
+
+Evaluation:
+Criteria	ChatGPT	Claude
+Relevance	✅ High	✅ High
+Coherence	✅ Natural	✅ Natural
+Customization Depth	✅ Detailed	✅ Moderate
+Responsiveness	✅ Fast	✅ Fast
+Tone	✅ Friendly	✅ Friendly
+Winner: ChatGPT – Slightly more specific and product-rich recommendations.
+
+2. Tabular Format Prompting
+Prompt:
+Based on the table below, generate personalized vacation packages.
+
+Recently Viewed	Booked	Wishlist
+Bali	Beach Resort	Diving Course
+Maldives	-	Snorkeling Adventure
+Outputs:
+ChatGPT:
+Recommended Vacation Packages: • Beachfront resort in Bali with a diving certification course. • Maldives all-inclusive resort with snorkeling and private tours. • Costa Rica eco-lodge with underwater excursions and yoga.
+
+Claude:
+Personalized Travel Suggestions: • Diving package in the Bahamas, complete with resort and activity booking. • Private Maldives villa with a guided snorkeling tour and beach access. • Bali wellness package that includes diving and local cultural experiences.
+
+Evaluation:
+Criteria	ChatGPT	Claude
+Relevance	✅ High	✅ High
+Coherence	✅ Structured	✅ Structured
+Customization Depth	✅ Strong	✅ Strong
+Responsiveness	✅ Fast	✅ Fast
+Tone	✅ Professional	✅ Professional
+Winner: Tie – Both platforms interpreted the tabular input effectively.
+
+3. Missing Word Prompting
+Prompt:
+"User is interested in [tropical destinations] and [beach resorts]. Suggest vacation packages like _______."
+Outputs:
+ChatGPT:
+You might enjoy an all-inclusive stay in the Maldives, complete with guided snorkeling tours, or a luxury resort in Hawaii with surfing lessons and oceanfront villas.
+
+Claude:
+Explore trips to the Caribbean with private beach villas and optional water sport packages, or perhaps a retreat in the Seychelles featuring beach activities and local cultural experiences.
+
+#Evaluation:
+
+Criteria	ChatGPT	Claude
+Relevance	✅ Strong	✅ Strong
+Coherence	✅ Good	✅ Good
+Customization Depth	✅ Moderate	✅ High
+Responsiveness	✅ Fast	✅ Fast
+Tone	✅ Friendly	✅ Friendly
+Winner: Claude – Slightly more creative with diverse vacation options.
+
+# Result : 
+Thus, the summarized Result section based on the experiment using the three prompt types (Straightforward, Tabular Format, Missing Word) and two AI platforms (ChatGPT and Claude).
 
 
-# Result : The Prompt for the above problem statement executed successfully.
+
